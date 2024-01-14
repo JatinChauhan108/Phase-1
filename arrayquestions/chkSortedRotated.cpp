@@ -15,3 +15,4 @@ bool check(vector<int>& nums) {
             count ++;
         }
         return count <= 1 ;
+}
