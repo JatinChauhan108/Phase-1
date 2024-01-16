@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// iss question ko agar vector se karenge, tab v.size() function ka use kar sakte hain end pointer ke liye, jo ki character vector(similar to integer vector) ya string ka size dega
+
 int main(){
     
     char str[20];
