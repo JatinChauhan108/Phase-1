@@ -8,7 +8,7 @@ char tolowercase(char ch){
 
     // function to return the lowercase of a character if it is in upper case
 
-    if(ch >= 'a' and ch <= 'z'){
+    if((ch >= 'a' and ch <= 'z') || (ch >= '0' and ch <= '9')){
         return ch;
     }
     else{
